@@ -9,9 +9,9 @@ export default class MovieList extends React.Component{
   }
 
   componentWillMount(){
-    fetch('http://vue.studyit.io/api/getlunbo').then(res => {
-        console.log(res);
-    })
+    // fetch('https://douban.uieee.com/v2/movie/subject/1764796').then(res => {
+    //     console.log(res);
+    // })
   }
 
   render(){
