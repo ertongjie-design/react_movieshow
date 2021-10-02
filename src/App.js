@@ -12,7 +12,8 @@ class App extends React.Component{
   constructor(props){
     super(props)
     this.state = {
-      category: 'home'
+      category: 'home',
+      data: 'home'
     }
   }
 
