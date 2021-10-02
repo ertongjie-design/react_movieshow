@@ -5,6 +5,7 @@ import { Layout, Menu } from 'antd';
 import HomeContainer from './components/HomeContainer';
 import MovieContainer from './components/MovieContainer';
 import AboutContainer from './components/AboutContainer';
+import testJson from './test.json'
 
 const { Header, Footer } = Layout;
 
@@ -18,6 +19,8 @@ class App extends React.Component{
   }
 
   componentWillMount(){
+    let a = testJson
+    debugger
     console.log(window.location.hash.split('/')[1])
   }
 
